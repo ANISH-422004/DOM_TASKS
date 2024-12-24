@@ -1,0 +1,1 @@
+In this task, we'll have an image and a button while we click on.while we click on the button, we can toggle between two mode that is invisible mode and visible mode, where once we click on the button, it will get feasible. And other time it will get invisible
