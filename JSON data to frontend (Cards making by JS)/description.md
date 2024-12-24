@@ -1,0 +1,1 @@
+This task includes calling an api from fake store api using axios and with the use of forEach function.We are pushing that data one by one .In clatter in form of htmltags (in string) then pushing that whole Clutter data in the main  in result shows the whole picture. 
