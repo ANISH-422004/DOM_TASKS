@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.playing{
+    /* background: blue; */
+    border: yellow 10px solid;
+    background: #000;
+    text-align: center;
+    color: aliceblue;
+}
