@@ -7,8 +7,8 @@ function Drum(props) {
 	const play = () => {
 		setPlaying(true);
 
-		new Audio(props.sound).play();
-		
+		new Audio(props.sound).play();  // creates a audio in stance with the props.sound src for each button this fuction is made with diff src and each unique drum comp holds the same play() but wih diff props.src in that instance for that audio
+		 
 		setTimeout(() => {
 			setPlaying(false);
 		}, 100);
