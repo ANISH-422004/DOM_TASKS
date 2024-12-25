@@ -155,3 +155,69 @@ When to Use Audio vs <audio>
 Audio object: Best for quick, programmatic audio playback, e.g., sound effects in games or applications.
 HTML <audio> element: Better for audio with controls, such as music players.
 If you need help implementing specific functionality with the Audio object, feel free to ask! 😊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How its working multiple time on keydown ?
+
+Let’s break down how the play() function is running multiple times when you press keys:
+
+How play() Works with keydown Events
+The Listener is Set Up in useEffect:
+
+javascript
+Copy code
+useEffect(() => {
+    document.addEventListener("keydown", (e) => {
+        if (e.key.toLowerCase() === props.letter.toLowerCase()) {
+            play();
+        }
+    });
+}, []);
+When the component mounts, the useEffect is triggered.
+A keydown event listener is added to the global document.
+Every time a key is pressed, this listener is executed.
+Key Matching:
+
+Inside the listener, the condition checks:
+javascript
+Copy code
+if (e.key.toLowerCase() === props.letter.toLowerCase()) {
+    play();
+}
+e.key.toLowerCase() is the key pressed on the keyboard.
+props.letter.toLowerCase() is the letter assigned to this drum component.
+If the pressed key matches the drum's assigned letter, play() is called.
+How It Responds to Key Presses:
+
+The listener doesn’t care about how many times the component has rendered.
+As long as the listener is attached to the document, it will trigger whenever the corresponding key is pressed.
+Calling play():
+
+When the condition matches, play() is invoked.
+This function plays the sound and visually activates the drum for a short time.
