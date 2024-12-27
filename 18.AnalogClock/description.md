@@ -1,0 +1,1 @@
+making analog and digital watch using setstate and useeffect to run the setInterval initially and we have a var for degree it will be updated per se c and be added to style of that hr/min/sec hands
