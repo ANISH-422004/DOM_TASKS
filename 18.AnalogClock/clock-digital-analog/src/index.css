@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clock {
+  width: 20rem;
+  aspect-ratio: 1 / 1;
+  background-color: rgba(48, 185, 185, 0.668);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.center {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: black;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hrhand,
+.minhand,
+.sechand {
+  width: 50%;
+  height: 0.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left;
+  border-radius: 0.125rem;
+}
+
+.hrhand {
+  height: 0.4rem;
+  background-color: black;
+  z-index: 5;
+}
+
+.minhand {
+  background-color: gray;
+  z-index: 6;
+}
+
+.sechand {
+  background-color: red;
+  z-index: 7;
+}
+
+.num{
+top: 47%;
+left: 50%;
+}
