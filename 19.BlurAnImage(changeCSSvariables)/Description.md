@@ -1,0 +1,1 @@
+In this task, we have  an image is present and there is a rangeBar which will allow usto minimize blur amountor maximize blur amount on that image The concepts you can use here is useRef targete the image and take out its blur value useEffect and useState and two-way binding for you statevalue to change
