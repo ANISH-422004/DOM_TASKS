@@ -1,0 +1,1 @@
+This project demonstrates a simple yet elegant animation for dynamically revealing or hiding child elements within a container (panel). Using CSS transforms and JavaScript, the project creates an interactive user experience where the first and last child elements of a panel slide into view when the panel is opened, and slide out when closed.
