@@ -25,10 +25,10 @@ const App = () => {
   }
 
   useEffect(() => {
-    if (search) {
+    if (search) {  //for non black string 
       const matchedAreas = findMatches(search, cities);
       setFilteredCities(matchedAreas);
-    } else {
+    } else { // for blank string (empty string) which is falsy value
       setFilteredCities([]);
     }
   }, [search, cities]);
