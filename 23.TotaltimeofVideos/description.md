@@ -1,0 +1,1 @@
+This project is a React-based video list application that displays a collection of videos with their titles and durations. Each video card has a responsive design, with hover effects enhancing the user experience. It calculates and displays the total duration of all videos in minutes dynamically. The app is styled using Tailwind CSS for a clean and modern interface.
