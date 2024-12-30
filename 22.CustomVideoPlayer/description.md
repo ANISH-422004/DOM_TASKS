@@ -1,0 +1,1 @@
+This project is a custom video player built with React, featuring controls for play/pause, volume adjustment, playback speed, and seek functionality. It utilizes React's state management to handle dynamic values like current time, duration, and volume. The player also shows and hides controls based on mouse interaction, offering an interactive video playback experience.
