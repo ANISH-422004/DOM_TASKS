@@ -1,0 +1,5 @@
+In this task, we will have an array of image sources called images. There will be a div where each image is displayed one at a time. Additionally, there will be two buttons—left and right. When we click the left button, it should display the image previous to the current image in the array (based on the index). Similarly, clicking the right button should display the next image in the array.
+
+There will also be a set of small divs representing notifications for which image is currently active. For example, if the images array has a length of five, there will be five circular divs. The currently active image will have its corresponding circle highlighted in white, while the inactive circles will be highlighted in a normal gray color.
+
+Furthermore, we will add functionality so that when a user clicks on any of these circular divs (representing the images or their indexes), the corresponding image is displayed. For instance, if the user clicks on the second div, the second image in the images array should be shown.
