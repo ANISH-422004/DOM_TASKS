@@ -1,1 +1,1 @@
-This files contains.many tasks.which include Dom manipulation,  There are 15 projects or fourteen projects which we have done previously, and we will add more 25 projects in it and it will become 40 projects in total.This is our tasktill 10th December.
+This files contains many tasks which include Dom manipulation,  There are 15 projects or fourteen projects which we have DOM Manupulation Tasks, and we will add more 25 small-mid sized Tasks based on REACT in it and it will become 40 projects in total.This is our task till 10th December.
